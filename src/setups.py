@@ -106,3 +106,18 @@ Action: They compete while respecting rules
 Consequence: One wins, one loses, but both accept the result
 Learning: Competition can coexist with respect
 """
+
+all_setups = {
+    "resource_sharing" : resource_sharing,
+    "turn_taking" : turn_taking,
+    "complementary_skills" : complementary_skills,
+    "tradeoffs_and_exchange" : tradeoffs_and_exchange,
+    "joint_problem_solving" : joint_problem_solving,
+    "communication_coordination" : communication_coordination,
+    "altruism" : altruism,
+    "conflict_resolution" : conflict_resolution,
+    "failed_cooperation_adjustment" : failed_cooperation_adjustment,
+    "non_cooperative_agent" : non_cooperative_agent,
+    "win_lose_inevitable" : win_lose_inevitable,
+    "fair_competition" : fair_competition,
+}
